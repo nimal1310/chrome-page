@@ -1,0 +1,235 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'arial',sans-serif;
+}
+body{
+    background-color: #111;
+}
+section{
+    position: relative;
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section header ul li{
+list-style: none;
+margin-left: 10px;
+}
+section header ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color:white;
+}
+section header ul li a:hover{
+    text-decoration: underline;
+}
+section header ul li a img{
+    width:20px;
+   
+    
+}
+section .main {
+    width: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   position: absolute;
+   top:20px;
+ 
+}
+section .main img{
+  
+width: 300px;
+
+
+}
+section .main .search{
+    position:relative;
+    justify-content: flex-end;
+    margin-top: 20px;
+    width: 100%;
+}
+.main .search ul li{
+    list-style:none;
+}
+section .main .search input{
+    width:100%;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border: 1px solid white;
+
+    font-size: 15px;
+
+    color:white;
+   background-color: #111;
+    
+}
+section .main .search .icon{
+    display: flex;
+    top: 0;
+    /* width:100% */
+    /* width: 100%; */
+    position:absolute;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    right:0px;
+    pointer-events: none;
+   
+   
+}
+/* section .main .search .icon div{
+    r;
+} */
+
+section .main .search div button{
+    background-color:rgb(26, 25, 25);
+    color: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+    position: relative;
+    top:10px;
+    right: -200px;
+    align-items: center;
+     padding: 5px 10px;
+     margin-right: 10px;
+}
+
+section .main .search .icon img{
+  width: 20px;
+ 
+}
+section .main .search .icon1 img{
+    width: 15px;
+    position: absolute;
+    top: 12px;
+    left:3%;
+   
+
+    /* align-items: center;
+    justify-content: center; */display: flex;
+    
+
+}
+section .main .search .lang{
+  position: absolute;
+  top: 100px;
+  right:0px;
+  display: flex;
+ justify-content: center;
+
+}
+section .main .search .lang ul{
+    display: flex;
+    
+}
+section .main .search .lang ul li{
+    padding: 5px;
+  
+}
+section .main .search .lang ul h4{
+ position: relative;
+ top: 6px;
+ font-size: 13px;
+ color: white;
+}
+section .main .search .lang ul li a {
+    text-decoration: none;
+    color:rgb(34, 92, 116);
+    font-size: 13px;
+}
+section .main .search .lang ul li a:hover{
+    text-decoration: underline ;
+}
+section .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    background:rgb(8, 6, 6);
+}
+section .footer .top{
+
+    padding: 5px;
+    color: white;
+    font-size: 13px;
+    padding: 10px 3px;
+
+}
+section .footer .bottom ul{
+    display: flex;
+
+}
+section .footer .bottom ul li{
+    list-style: none;
+    font-size: 13px;
+    margin-right: 25px;
+    color:white
+}
+section .footer .left{
+ position: absolute;
+ right: 0;
+ bottom:-1px;
+}
+section .footer .left ul{
+    display: flex;
+   
+
+}
+section .footer .left ul li{
+    list-style: none;
+    font-size: 13px;
+    margin-right: 25px;
+    color:white
+}
+/* .footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+  
+}
+.footer .top{
+    position: absolute;
+    bottom: -170px;
+    left: -470px;
+    border: 1px solid gray;
+    width: 600%;
+    padding: 5px 10px;
+ 
+}
+.footer .bottom{
+    position: relative;
+    display: flex;
+}
+.footer .bottom div ul li{
+  
+ 
+}
+     */
+   
+/* }
+ .footer .top{
+    position: absolute;
+    bottom:0px;
+} *
